@@ -1,0 +1,106 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* reset finished */
+
+#search-bar {
+    display: block;
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    margin: auto;
+    outline: none;
+}
+#buttons {
+    display: block;
+    width: 375px;
+    margin: 10px auto 0 auto;
+}
+.search {
+    width: 175px;
+    height: 25px;
+    border-radius: 30px;
+}
+
+#google-img {
+    display: block;
+    width: 400px;
+    margin: 0 auto 20px auto;
+}
+
+.main {
+    position: absolute;
+    /*top: 200px;*/
+    top: 40%;
+    width: 100%;
+}
+
+.top-left {
+    float: left;
+    padding: 15px;
+}
+
+.top-right {
+    float: right;
+    padding: 15px;
+}
+
+.top-left h3 {
+    display: inline;
+    padding: 0 10px;
+}
+
+.top-right h3 {
+    display: inline;
+    padding: 0 10px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #eee;
+    bottom: 0;
+}
+.bottom-left {
+    float: left;
+    padding: 0 0 0 15px;
+}
+
+.bottom-right {
+    float: right;
+    padding: 0 15px 0 0;
+}
+
+.bottom-left h3 {
+    display: inline;
+    margin: 0 10px;
+}
+
+.bottom-right h3 {
+    display: inline;
+    margin: 0 10px;
+}
+
+#australia {
+    padding: 0 0 0 25px;
+}
+
